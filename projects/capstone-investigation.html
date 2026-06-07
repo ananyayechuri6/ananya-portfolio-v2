@@ -4,116 +4,280 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Cybersecurity Capstone Investigation Project</title>
-  <link rel="stylesheet" href="capstone-visuals.css" />
+  <link rel="stylesheet" href="capstone-premium.css" />
 </head>
 <body>
-  <main class="case-page">
+  <main class="case-shell">
     <a class="back-link" href="../index.html#projects">← Back to Portfolio</a>
 
-    <section class="hero">
-      <div>
-        <p class="eyebrow">Forensics · Incident Analysis · Executive Reporting</p>
-        <h1>Cybersecurity Capstone Investigation Project</h1>
-        <p class="lead">
-          A simulated enterprise ransomware investigation using Windows event logs, PCAP traffic,
-          memory artifacts, and system image evidence to identify indicators of compromise,
-          reconstruct the attack timeline, and produce remediation recommendations.
+    <section class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Cybersecurity Capstone · Digital Forensics · Incident Response</p>
+        <h1>Simulated Enterprise Ransomware Investigation</h1>
+        <p>
+          Investigated a simulated enterprise cyber incident by analyzing Windows event logs,
+          PCAP traffic, memory artifacts, and system image evidence to identify indicators of
+          compromise, reconstruct the attack timeline, and deliver executive-level remediation guidance.
         </p>
+
+        <div class="hero-tags">
+          <span>Log Analysis</span>
+          <span>PCAP Review</span>
+          <span>Memory Artifacts</span>
+          <span>IOC Discovery</span>
+          <span>Executive Reporting</span>
+        </div>
       </div>
-      <aside class="summary-card">
-        <p class="label">Case Type</p>
+
+      <aside class="command-card">
+        <div class="status-row">
+          <span class="pulse"></span>
+          <p>Case Summary</p>
+        </div>
+
         <h2>Ransomware Investigation</h2>
-        <div class="mini-metrics">
-          <div><b>4</b><span>Evidence Sources</span></div>
-          <div><b>5</b><span>Key Findings</span></div>
-          <div><b>1</b><span>Executive Report</span></div>
+
+        <div class="metric-stack">
+          <div>
+            <strong>4</strong>
+            <span>Evidence Sources</span>
+          </div>
+          <div>
+            <strong>6</strong>
+            <span>Investigation Stages</span>
+          </div>
+          <div>
+            <strong>5</strong>
+            <span>Mapped Attack Tactics</span>
+          </div>
         </div>
       </aside>
     </section>
 
-    <section class="panel">
-      <p class="eyebrow">Visual 01</p>
-      <h2>Investigation Workflow</h2>
-      <p class="panel-copy">How raw evidence became findings, timeline reconstruction, and an executive-style report.</p>
+    <section class="section">
+      <div class="section-title">
+        <p class="eyebrow">Investigation View</p>
+        <h2>From evidence to executive reporting</h2>
+      </div>
 
-      <div class="workflow">
-        <article><span>01</span><h3>Evidence Collection</h3><p>Logs, traffic captures, memory artifacts, and system images.</p></article>
-        <div class="arrow">→</div>
-        <article><span>02</span><h3>Analysis</h3><p>Event logs, PCAP traffic, processes, and suspicious behavior.</p></article>
-        <div class="arrow">→</div>
-        <article><span>03</span><h3>IOC Discovery</h3><p>Suspicious files, processes, connections, and encryption activity.</p></article>
-        <div class="arrow">→</div>
-        <article><span>04</span><h3>Reporting</h3><p>Attack timeline, affected systems, findings, and remediation.</p></article>
+      <div class="process-board">
+        <div class="process-card">
+          <span>01</span>
+          <h3>Evidence Intake</h3>
+          <p>Collected event logs, network captures, memory artifacts, and system image data.</p>
+        </div>
+        <div class="connector"></div>
+        <div class="process-card">
+          <span>02</span>
+          <h3>Forensic Review</h3>
+          <p>Reviewed suspicious processes, unusual traffic, host artifacts, and encryption evidence.</p>
+        </div>
+        <div class="connector"></div>
+        <div class="process-card">
+          <span>03</span>
+          <h3>IOC Analysis</h3>
+          <p>Identified suspicious executables, encrypted files, ransom note evidence, and network anomalies.</p>
+        </div>
+        <div class="connector"></div>
+        <div class="process-card">
+          <span>04</span>
+          <h3>Executive Report</h3>
+          <p>Translated findings into timeline, impact, risk, and remediation recommendations.</p>
+        </div>
       </div>
     </section>
 
-    <section class="panel dark">
-      <p class="eyebrow">Visual 02</p>
-      <h2>Evidence Dashboard</h2>
-      <p class="panel-copy">Main evidence sources reviewed during the investigation.</p>
+    <section class="section evidence-section">
+      <div class="section-title">
+        <p class="eyebrow">Evidence Dashboard</p>
+        <h2>Evidence sources reviewed</h2>
+      </div>
 
-      <div class="evidence-grid">
-        <article><div class="icon">🪟</div><h3>Windows Event Logs</h3><p>Authentication activity, process events, and suspicious behavior.</p></article>
-        <article><div class="icon">📡</div><h3>PCAP Traffic</h3><p>Network communications, anomalies, and suspicious traffic patterns.</p></article>
-        <article><div class="icon">🧠</div><h3>Memory Artifacts</h3><p>Processes, connections, and volatile system evidence.</p></article>
-        <article><div class="icon">💾</div><h3>System Images</h3><p>File artifacts, encrypted files, and ransomware evidence.</p></article>
+      <div class="evidence-dashboard">
+        <article>
+          <div class="evidence-icon">🪟</div>
+          <h3>Windows Event Logs</h3>
+          <p>Authentication events, process activity, and suspicious host behavior.</p>
+          <div class="bar"><span style="width: 88%"></span></div>
+        </article>
+
+        <article>
+          <div class="evidence-icon">📡</div>
+          <h3>PCAP Traffic</h3>
+          <p>Network sessions, communication patterns, and abnormal traffic flows.</p>
+          <div class="bar"><span style="width: 82%"></span></div>
+        </article>
+
+        <article>
+          <div class="evidence-icon">🧠</div>
+          <h3>Memory Artifacts</h3>
+          <p>Process listings, connections, and volatile forensic indicators.</p>
+          <div class="bar"><span style="width: 75%"></span></div>
+        </article>
+
+        <article>
+          <div class="evidence-icon">💾</div>
+          <h3>System Images</h3>
+          <p>File artifacts, encrypted extensions, ransom note evidence, and timelines.</p>
+          <div class="bar"><span style="width: 91%"></span></div>
+        </article>
       </div>
     </section>
 
-    <section class="panel">
-      <p class="eyebrow">Visual 03</p>
-      <h2>Attack Timeline</h2>
-      <p class="panel-copy">A simplified view of the incident from initial access to impact.</p>
+    <section class="section">
+      <div class="section-title">
+        <p class="eyebrow">Attack Timeline</p>
+        <h2>How the incident unfolded</h2>
+      </div>
 
-      <div class="timeline">
-        <article><span>01</span><h3>Initial Access</h3><p>Phishing email with suspicious attachment delivered.</p></article>
-        <article><span>02</span><h3>Execution</h3><p>Attachment opened and suspicious process activity observed.</p></article>
-        <article><span>03</span><h3>Discovery</h3><p>Host and network evidence reviewed for abnormal behavior.</p></article>
-        <article><span>04</span><h3>Lateral Movement</h3><p>Network activity suggested potential movement between systems.</p></article>
-        <article class="impact"><span>05</span><h3>Impact</h3><p>Encrypted files and ransom note indicated ransomware activity.</p></article>
-        <article><span>06</span><h3>Response</h3><p>Findings documented in an executive-style incident report.</p></article>
+      <div class="attack-timeline">
+        <div class="timeline-track"></div>
+
+        <article>
+          <span>01</span>
+          <h3>Initial Access</h3>
+          <p>Suspicious email attachment introduced into the environment.</p>
+        </article>
+
+        <article>
+          <span>02</span>
+          <h3>Execution</h3>
+          <p>Attachment opened and suspicious process activity observed.</p>
+        </article>
+
+        <article>
+          <span>03</span>
+          <h3>Investigation</h3>
+          <p>Event logs, memory, and network traffic reviewed for evidence.</p>
+        </article>
+
+        <article>
+          <span>04</span>
+          <h3>Lateral Movement</h3>
+          <p>Network behavior suggested possible movement across systems.</p>
+        </article>
+
+        <article class="danger">
+          <span>05</span>
+          <h3>Impact</h3>
+          <p>Encrypted files and ransom note indicated ransomware activity.</p>
+        </article>
+
+        <article>
+          <span>06</span>
+          <h3>Reporting</h3>
+          <p>Findings translated into executive recommendations.</p>
+        </article>
       </div>
     </section>
 
-    <section class="panel">
-      <p class="eyebrow">Visual 04</p>
-      <h2>Indicators of Compromise</h2>
-      <p class="panel-copy">Key technical indicators documented during the investigation.</p>
-
-      <div class="ioc-grid">
-        <article class="ioc high"><span>High</span><h3>Encrypted Files</h3><p>Files with ransomware-style encrypted extensions identified.</p></article>
-        <article class="ioc high"><span>High</span><h3>Suspicious Executable</h3><p>Process activity associated with possible malware execution.</p></article>
-        <article class="ioc medium"><span>Medium</span><h3>Network Anomalies</h3><p>Unusual communication patterns observed during PCAP analysis.</p></article>
-        <article class="ioc medium"><span>Medium</span><h3>Ransom Note</h3><p>Ransomware note discovered as supporting evidence of impact.</p></article>
-      </div>
-    </section>
-
-    <section class="panel">
-      <p class="eyebrow">Visual 05</p>
-      <h2>MITRE ATT&CK-Style Mapping</h2>
-      <p class="panel-copy">A simplified lifecycle mapping to communicate the incident in a structured way.</p>
-
-      <div class="mitre">
-        <article><span>TA0001</span><h3>Initial Access</h3><p>Phishing Attachment</p></article>
-        <article><span>TA0002</span><h3>Execution</h3><p>Malicious File Opened</p></article>
-        <article><span>TA0007</span><h3>Discovery</h3><p>Host & Network Review</p></article>
-        <article><span>TA0008</span><h3>Lateral Movement</h3><p>Suspicious Connections</p></article>
-        <article class="impact"><span>TA0040</span><h3>Impact</h3><p>File Encryption</p></article>
-      </div>
-    </section>
-
-    <section class="panel final">
+    <section class="section split">
       <div>
-        <p class="eyebrow">Outcome</p>
+        <div class="section-title">
+          <p class="eyebrow">IOC Matrix</p>
+          <h2>Key indicators identified</h2>
+        </div>
+
+        <div class="ioc-matrix">
+          <article class="critical">
+            <span>Critical</span>
+            <h3>Encrypted Files</h3>
+            <p>Ransomware-style encrypted extensions found on affected systems.</p>
+          </article>
+
+          <article class="critical">
+            <span>Critical</span>
+            <h3>Suspicious Executable</h3>
+            <p>Executable activity aligned with malware execution behavior.</p>
+          </article>
+
+          <article class="medium">
+            <span>Medium</span>
+            <h3>Network Anomalies</h3>
+            <p>Unusual communication patterns identified during PCAP review.</p>
+          </article>
+
+          <article class="medium">
+            <span>Medium</span>
+            <h3>Ransom Note</h3>
+            <p>Note discovered as supporting evidence of ransomware impact.</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="risk-panel">
+        <p class="eyebrow">Risk View</p>
+        <h2>Severity Breakdown</h2>
+        <div class="risk-ring">
+          <div class="ring-center">
+            <strong>High</strong>
+            <span>Overall Case Risk</span>
+          </div>
+        </div>
+        <div class="legend">
+          <p><span class="dot red"></span> Impact confirmed through encryption artifacts</p>
+          <p><span class="dot orange"></span> Suspicious activity requiring investigation</p>
+          <p><span class="dot blue"></span> Evidence documented for reporting</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <p class="eyebrow">MITRE ATT&CK-Style Mapping</p>
+        <h2>Structured attack lifecycle view</h2>
+      </div>
+
+      <div class="mitre-board">
+        <article>
+          <span>TA0001</span>
+          <h3>Initial Access</h3>
+          <p>Phishing Attachment</p>
+        </article>
+
+        <article>
+          <span>TA0002</span>
+          <h3>Execution</h3>
+          <p>Malicious File Opened</p>
+        </article>
+
+        <article>
+          <span>TA0007</span>
+          <h3>Discovery</h3>
+          <p>Host & Network Review</p>
+        </article>
+
+        <article>
+          <span>TA0008</span>
+          <h3>Lateral Movement</h3>
+          <p>Suspicious Connections</p>
+        </article>
+
+        <article class="danger">
+          <span>TA0040</span>
+          <h3>Impact</h3>
+          <p>File Encryption</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="executive-panel">
+      <div>
+        <p class="eyebrow">Final Deliverable</p>
         <h2>Executive Incident Report</h2>
-        <p class="panel-copy">
-          The final deliverable summarized the attack timeline, affected systems, indicators of compromise,
-          business impact, and remediation recommendations for non-technical stakeholders.
+        <p>
+          Produced an executive-style incident report summarizing the attack timeline,
+          affected systems, indicators of compromise, business impact, and remediation recommendations.
         </p>
       </div>
-      <div class="skills">
-        <span>Incident Analysis</span><span>Digital Forensics</span><span>Log Review</span><span>PCAP Analysis</span>
-        <span>IOC Identification</span><span>Executive Reporting</span><span>Remediation Planning</span>
+
+      <div class="deliverables">
+        <span>Attack Timeline</span>
+        <span>IOC Summary</span>
+        <span>Affected Systems</span>
+        <span>Business Impact</span>
+        <span>Remediation Plan</span>
+        <span>Executive Communication</span>
       </div>
     </section>
   </main>
