@@ -4,25 +4,206 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SOX Control Testing Case Study</title>
-  <link rel="stylesheet" href="../styles.css" />
+  <link rel="stylesheet" href="sox-control-testing-premium.css" />
 </head>
 <body>
-  <main class="content-page">
-    <a href="../index.html#projects" class="back">← Back to portfolio</a>
-    <p class="eyebrow">Project</p>
-    <h1>SOX Control Testing Case Study</h1>
-    
-<p>This case study demonstrates how I would document a basic SOX control testing scenario for access management.</p>
-<h2>Example control</h2>
-<p><strong>Control objective:</strong> Ensure user access is reviewed periodically to prevent unauthorized access.</p>
-<h2>Testing approach</h2>
-<ul>
-  <li>Request user access review evidence.</li>
-  <li>Verify review date, reviewer, population completeness, and documented sign-off.</li>
-  <li>Identify exceptions or missing evidence.</li>
-  <li>Document finding and remediation recommendation.</li>
-</ul>
+  <main class="case-shell">
+    <a class="back-link" href="../index.html#projects">← Back to Portfolio</a>
 
+    <section class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">SOX · Access Management · Control Testing</p>
+        <h1>SOX Control Testing Case Study</h1>
+        <p>
+          A portfolio case study demonstrating how I would document and test a basic SOX access
+          management control. The scenario focuses on periodic user access reviews to prevent
+          unauthorized access and strengthen audit readiness.
+        </p>
+        <div class="hero-tags">
+          <span>SOX Testing</span>
+          <span>Access Review</span>
+          <span>Evidence Review</span>
+          <span>Exception Tracking</span>
+          <span>Remediation</span>
+        </div>
+      </div>
+
+      <aside class="command-card">
+        <div class="status-row">
+          <span class="pulse"></span>
+          <p>Control Snapshot</p>
+        </div>
+        <h2>User Access Review</h2>
+        <div class="metric-stack">
+          <div><strong>1</strong><span>Control Objective</span></div>
+          <div><strong>4</strong><span>Testing Steps</span></div>
+          <div><strong>3</strong><span>Evidence Checks</span></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section control-section">
+      <div class="section-title">
+        <p class="eyebrow">Example Control</p>
+        <h2>Access Review Control</h2>
+      </div>
+
+      <div class="control-card">
+        <div>
+          <span>Control Objective</span>
+          <h3>Ensure user access is reviewed periodically to prevent unauthorized access.</h3>
+          <p>
+            This control helps confirm that user access remains appropriate based on job responsibilities,
+            role changes, terminations, and business need.
+          </p>
+        </div>
+
+        <div class="control-meta">
+          <p><strong>Control Area:</strong> Access Management</p>
+          <p><strong>Frequency:</strong> Quarterly</p>
+          <p><strong>Risk Addressed:</strong> Unauthorized access to sensitive systems</p>
+          <p><strong>Evidence Type:</strong> User access review export and sign-off</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <p class="eyebrow">Testing Workflow</p>
+        <h2>How the control would be tested</h2>
+      </div>
+
+      <div class="process-board">
+        <article><span>01</span><h3>Request Evidence</h3><p>Obtain access review export, user population, reviewer sign-off, and review date.</p></article>
+        <div class="connector"></div>
+        <article><span>02</span><h3>Validate Completeness</h3><p>Confirm the population includes all in-scope users and systems.</p></article>
+        <div class="connector"></div>
+        <article><span>03</span><h3>Review Sign-Off</h3><p>Verify reviewer approval, review timing, and documented completion.</p></article>
+        <div class="connector"></div>
+        <article><span>04</span><h3>Document Results</h3><p>Record exceptions, control conclusion, and remediation recommendation.</p></article>
+      </div>
+    </section>
+
+    <section class="section evidence-section">
+      <div class="section-title">
+        <p class="eyebrow">Evidence Checklist</p>
+        <h2>Evidence reviewed</h2>
+      </div>
+
+      <div class="evidence-dashboard">
+        <article>
+          <div class="evidence-icon">👥</div>
+          <h3>User Population</h3>
+          <p>Complete list of users with access to the in-scope application or system.</p>
+          <div class="status good">Reviewed</div>
+        </article>
+
+        <article>
+          <div class="evidence-icon">📅</div>
+          <h3>Review Date</h3>
+          <p>Confirmation that the access review was completed within the required period.</p>
+          <div class="status good">Reviewed</div>
+        </article>
+
+        <article>
+          <div class="evidence-icon">✍️</div>
+          <h3>Reviewer Sign-Off</h3>
+          <p>Evidence that an authorized owner reviewed and approved access.</p>
+          <div class="status warning">Exception Noted</div>
+        </article>
+
+        <article>
+          <div class="evidence-icon">🧾</div>
+          <h3>Exception Notes</h3>
+          <p>Documentation showing removed access, pending changes, or unresolved issues.</p>
+          <div class="status pending">Follow-Up Needed</div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split">
+      <div>
+        <div class="section-title">
+          <p class="eyebrow">Testing Results</p>
+          <h2>Sample exception matrix</h2>
+        </div>
+
+        <div class="finding-list">
+          <article class="finding medium">
+            <div>
+              <span>Medium</span>
+              <h3>Missing Reviewer Sign-Off</h3>
+              <p>Access review evidence was provided, but formal reviewer approval was not documented.</p>
+            </div>
+            <strong>Request signed evidence or document compensating approval.</strong>
+          </article>
+
+          <article class="finding high">
+            <div>
+              <span>High</span>
+              <h3>Terminated User Still Listed</h3>
+              <p>A terminated user appeared in the access population, requiring validation and removal.</p>
+            </div>
+            <strong>Remove access and confirm user termination process effectiveness.</strong>
+          </article>
+        </div>
+      </div>
+
+      <aside class="risk-panel">
+        <p class="eyebrow">Control Conclusion</p>
+        <h2>Needs Remediation</h2>
+        <div class="control-ring">
+          <div class="ring-center">
+            <strong>Medium</strong>
+            <span>Residual Risk</span>
+          </div>
+        </div>
+        <div class="legend">
+          <p><span class="dot red"></span> Unauthorized access risk requires follow-up</p>
+          <p><span class="dot orange"></span> Evidence quality issue identified</p>
+          <p><span class="dot blue"></span> Control testing documentation completed</p>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section">
+      <div class="section-title">
+        <p class="eyebrow">Remediation Tracker</p>
+        <h2>Action plan</h2>
+      </div>
+
+      <div class="tracker">
+        <div class="tracker-row header">
+          <span>Issue</span><span>Owner</span><span>Priority</span><span>Status</span>
+        </div>
+        <div class="tracker-row">
+          <span>Missing reviewer sign-off</span><span>Control Owner</span><span class="pill med-pill">Medium</span><span class="pill progress">In Progress</span>
+        </div>
+        <div class="tracker-row">
+          <span>Terminated user access validation</span><span>IAM / System Owner</span><span class="pill high-pill">High</span><span class="pill pending">Evidence Requested</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="executive-panel">
+      <div>
+        <p class="eyebrow">Outcome</p>
+        <h2>Audit-Ready Documentation</h2>
+        <p>
+          The final testing documentation would include the control objective, evidence reviewed,
+          test procedures, exceptions identified, control conclusion, and remediation plan.
+        </p>
+      </div>
+
+      <div class="deliverables">
+        <span>Control Objective</span>
+        <span>Evidence Request</span>
+        <span>Population Review</span>
+        <span>Exception Matrix</span>
+        <span>Remediation Plan</span>
+        <span>Audit Documentation</span>
+      </div>
+    </section>
   </main>
 </body>
 </html>
